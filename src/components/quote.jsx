@@ -5,6 +5,7 @@ class Quote extends Component {
     return (
       <div>
         <p>Chuck Says...</p>
+        <p> {this.props.quote}</p>
       </div>
     );
   }
