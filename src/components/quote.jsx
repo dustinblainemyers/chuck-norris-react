@@ -5,7 +5,7 @@ class Quote extends Component {
         console.log("quote component has mounted");
         this.setState(
 
-          { quote :  "This is one quote"}
+          this.quote = "yep";
         )
     }
   render() {
