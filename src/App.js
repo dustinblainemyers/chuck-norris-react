@@ -3,7 +3,7 @@ import Quote from "./components/quote";
 import Modal from "./components/Modal";
 import Header from "./components/Header";
 import Form from "./components/Form";
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   return (
