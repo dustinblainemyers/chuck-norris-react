@@ -8,7 +8,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <Quote quote="life is a box of chocolates"/>
+      <Quote/>
       <Header />
       <Modal />
       <Form />
