@@ -2,11 +2,14 @@ import React, { Component } from "react";
 
 class Quote extends Component {
     componentDidMount() {
-        console.log("quote component has mounted");
-        this.setState(
+       
+        setTimeout(() => {
+          this.setState(
 
-          this.quote = "yep";
-        )
+            this.quote = "yep";
+          )
+        }, 5000);
+        
     }
   render() {
       const {quote} = this.state;
