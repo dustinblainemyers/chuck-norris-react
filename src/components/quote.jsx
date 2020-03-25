@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 
 class Quote extends Component {
+  state = {
+    quote: 'Fetching quote...'
+  };
     componentDidMount() {
        
         setTimeout(() => {
           this.setState(
 
-            this.quote = "yep";
+            {quote = "yep"};
           )
         }, 5000);
         
