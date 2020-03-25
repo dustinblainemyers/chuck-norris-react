@@ -8,11 +8,16 @@ class Quote extends Component {
        try {
         const response = await fetch('https://api.chucknorris.io/jokes/random?category=dev');
         const data = await response.json();
-        console.log("data is ", data);
+        this.setState({
+          quote: data.value
+        })
+        
 
 
       } catch (error) {
-          return error;
+          this.setState({
+            quote: error.message
+          })
 
       }
         
